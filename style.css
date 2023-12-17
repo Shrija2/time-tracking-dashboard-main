@@ -1,0 +1,163 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(226, 43%, 10%);
+  color: white;
+}
+
+main {
+  margin: 4rem 2rem 2rem 2rem;
+  font-family: Rubik;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: hsl(236, 100%, 87%);
+  font-size: 0.9rem;
+}
+
+header {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+header p {
+  margin-top: 1rem;
+}
+header .title {
+  background-color: hsl(246, 80%, 60%);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+header .title img {
+  border: solid 2px white;
+  width: 80%;
+  border-radius: 50%;
+}
+header .periodical {
+  display: grid;
+  grid-template-columns: 30% 37% 30%;
+  color: hsl(235, 45%, 61%);
+  padding: 2rem;
+  justify-content: space-between;
+}
+header .periodical div {
+  font-size: 1.2rem;
+}
+header .periodical div:active, header .periodical div:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#category {
+  margin-top: 2rem;
+  border-radius: 12px;
+}
+#category .category-img {
+  height: 45px;
+  overflow: hidden;
+  padding-right: 1.2rem;
+  text-align: right;
+}
+#category .category-time {
+  border-radius: 10px;
+  padding: 2rem 1.2rem 2rem 1.2rem;
+  background-color: hsl(235, 46%, 20%);
+}
+#category .category-time .ellipsis-div {
+  text-align: right;
+}
+#category .category-time h2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+#category .category-time .work-ellipsis {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hours-lastweek {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.bg-work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.bg-play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.bg-study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.bg-exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.bg-social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.bg-selfcare {
+  background-color: hsl(43, 84%, 65%);
+}
+
+@media (min-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .hours-lastweek {
+    display: block;
+  }
+  #category {
+    margin: 0 5% 5% 5%;
+    height: 220px;
+  }
+  #category h1 {
+    font-size: 40px;
+  }
+  #category p {
+    margin-top: 1rem;
+  }
+  header {
+    margin-right: 5%;
+  }
+  header .title {
+    display: block;
+    padding-bottom: 4rem;
+  }
+  header .title img {
+    width: 30%;
+  }
+  header .periodical {
+    display: block;
+  }
+  header .periodical div {
+    padding: 0.5rem;
+  }
+}

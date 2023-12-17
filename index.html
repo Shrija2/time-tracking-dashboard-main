@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=EB+Garamond&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;700&family=Inter:wght@400;500;700&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:wght@100;400;500&family=Rubik:wght@300;400;500&family=Space+Grotesk:wght@500&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+<main>
+<header>
+  <div class="title">
+    <div>
+      <img src="images/image-jeremy.png">
+    </div>
+    <div>
+      <p>Report for</p>
+      <h1>Jeremy Robson</h1>
+    </div>
+    
+  </div>
+  <div class="periodical">
+    <div class="daily">Daily</div>
+    <div class="weekly">Weekly</div>
+    <div class="monthly">Monthly</div>
+  </div>
+</header>
+
+<section id="grid">
+<section id="category" class="bg-work">
+  <div class="category-img">  
+    <img src="images/icon-work.svg">
+  </div>
+  <div class="category-time">
+    <div class="work-ellipsis">
+      <h2 class="htmlTitle">Work</h2>
+      <div class="ellipsis-div">
+        <img src="images/icon-ellipsis.svg">
+      </div> 
+    </div>
+    <div class="hours-lastweek">
+      <div>
+        <h1><span class="current current0">32</span> hrs</h1>
+      </div>
+      <div>
+        <p>Last <span class="interval">Week</span> - <span class="previous previous0">36</span> hrs</p>
+      </div>
+  </div>
+  </div>
+</section>
+
+<section id="category" class="bg-play">
+  <div class="category-img">  
+    <img src="images/icon-play.svg">
+  </div>
+  <div class="category-time">
+    <div class="work-ellipsis">
+      <h2 class="htmlTitle">Play</h2>
+      <div class="ellipsis-div">
+        <img src="images/icon-ellipsis.svg">
+      </div> 
+    </div>
+    <div class="hours-lastweek">
+      <div>
+        <h1><span class="current current1">10</span> hrs</h1>
+      </div>
+      <div>
+        <p>Last <span class="interval">Week</span> - <span class="previous previous1">8</span> hrs</p>
+      </div>
+  </div>
+  </div>
+</section>
+
+<section id="category" class="bg-study">
+  <div class="category-img">  
+    <img src="images/icon-study.svg">
+  </div>
+  <div class="category-time">
+    <div class="work-ellipsis">
+      <h2>Study</h2>
+      <div class="ellipsis-div">
+        <img src="images/icon-ellipsis.svg">
+      </div> 
+    </div>
+    <div class="hours-lastweek">
+      <div>
+        <h1><span class="current current2">10</span> hrs</h1>
+      </div>
+      <div>
+        <p>Last <span class="interval">Week</span> - <span class="previous previous2">7</span> hrs</p>
+      </div>
+  </div>
+  </div>
+</section>
+
+
+<section id="category" class="bg-exercise">
+  <div class="category-img">  
+    <img src="images/icon-exercise.svg">
+  </div>
+  <div class="category-time">
+    <div class="work-ellipsis">
+      <h2>Exercise</h2>
+      <div class="ellipsis-div">
+        <img src="images/icon-ellipsis.svg">
+      </div> 
+    </div>
+    <div class="hours-lastweek">
+      <div>
+        <h1><span class="current current3">10</span> hrs</h1>
+      </div>
+      <div>
+        <p>Last <span class="interval">Week</span> - <span class="previous previous3">36</span> hrs</p>
+      </div>
+  </div>
+  </div>
+</section>
+
+
+<section id="category" class="bg-social">
+  <div class="category-img">  
+    <img src="images/icon-social.svg">
+  </div>
+  <div class="category-time">
+    <div class="work-ellipsis">
+      <h2>Social</h2>
+      <div class="ellipsis-div">
+        <img src="images/icon-ellipsis.svg">
+      </div> 
+    </div>
+    <div class="hours-lastweek">
+      <div>
+        <h1><span class="current current4">10</span> hrs</h1>
+      </div>
+      <div>
+        <p>Last <span class="interval">Week</span> - <span class="previous previous4">36</span> hrs</p>
+      </div>
+  </div>
+  </div>
+</section>
+
+
+<section id="category" class="bg-selfcare">
+  <div class="category-img">  
+    <img src="images/icon-self-care.svg">
+  </div>
+  <div class="category-time">
+    <div class="work-ellipsis">
+      <h2>Self Care</h2>
+      <div class="ellipsis-div">
+        <img src="images/icon-ellipsis.svg">
+      </div> 
+    </div>
+    <div class="hours-lastweek">
+      <div>
+        <h1><span class="current current5">10</span> hrs</h1>
+      </div>
+      <div>
+        <p>Last <span class="interval">Week</span> - <span class="previous previous5">36</span> hrs</p>
+      </div>
+  </div>
+  </div>
+</section>
+
+
+</section>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Shrija</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
